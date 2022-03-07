@@ -25,5 +25,6 @@ create table `starling_basic_info`(
   `english_text` VARCHAR(255) default '',
   `is_del`TINYINT(3) default 0 not null,
   `remark` VARCHAR(255) default '',
+  `is_machine_translate` TINYINT(2) DEFAULT '1',
   PRIMARY KEY (`id`)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='中英文文案管理';
